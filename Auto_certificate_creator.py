@@ -39,7 +39,7 @@ def show_image(root,l,l2,l3,l4,name_event):
     rgb = Image.new('RGB', img.size, (255, 255, 255)) 
     rgb.paste(img, mask=img.split()[3]) 
     draw = ImageDraw.Draw(rgb)
-    draw.text( (int(C1),int(C2)), "Prathamesh Pramod Navangul", (0,0,255), font=ImageFont.truetype("arial.ttf", 35) )
+    draw.text( (int(C1),int(C2)), "FIRST_NAME MIDDLE_NAME LAST_NAME", (0,0,255), font=ImageFont.truetype("arial.ttf", 35) )
     draw.text( (int(C3),int(C4)), C5, (0,0,255), font=ImageFont.truetype("arial.ttf", 35) )
     im1 = rgb.resize((1000,800))
     im1.show()
@@ -79,7 +79,7 @@ def send_mail(root,name_event,email1,password):
             msg['From'] = email1
             msg['To'] = k
             body = "Thank you "+j+", for participating in "+name_event+". Your certificate is attached to this email for you to download and print.\n"
-            body2="https://www.instagram.com/cesa_adcet/"+"\n"
+            body2="INSTAGRAM_LINK"+"\n"
             body3="Follow us on Instagram"+"\n"
             msg.attach(MIMEText(body, "plain"))
             msg.attach(MIMEText(body2, "plain"))
