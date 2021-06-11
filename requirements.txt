@@ -1,0 +1,7 @@
+pandas
+opencv-python
+Pillow==2.2.2
+smtplib
+PyPDF2
+email
+ssl
