@@ -6,10 +6,10 @@ Follow the steps:
 
 Step 1 : Download Dependencies of Python given in the file requirements using following command: 
 
-pip install -r requirements.txt
+         pip install -r requirements.txt
 
 Step 2 : After installing dependencies create folder named as "Certificates" in the folder where python program exists.
 
 Step 3 : Now run the python program using following command: 
 
-pip install Auto_certificate_creator.py
+         pip install Auto_certificate_creator.py
