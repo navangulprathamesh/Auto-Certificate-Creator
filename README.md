@@ -1,4 +1,4 @@
-**Aim of this application is to create certificates automatically and send to multiple users via Gmail.**
+# Aim of this application is to create certificates automatically and send to multiple users via Gmail.
 
 Just to upload data file with some defined colume names and to upload certificate.
 
