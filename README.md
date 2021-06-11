@@ -10,7 +10,7 @@ Follow the steps:
 
 **Step 2 :** After installing dependencies create folder named as ***Certificates*** in the folder where python program exists.
 
-**Step 3 :** Ensure that ***Less secure app access*** is **_ON_** in **Google Account**.
+**Step 3 :** Ensure that ***Less secure app access*** is **_ON_** in **Google Account** for sending mails.
 
 **Step 3 :** Now run the python program using following command: 
 
